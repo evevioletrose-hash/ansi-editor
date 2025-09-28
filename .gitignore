@@ -1,0 +1,32 @@
+# Build artifacts
+ansi-editor
+*.exe
+*.wasm
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output directories
+html_output/
+json_output/
+js_output/
+wasm_output/
+examples/html_output/
+
+# ANSI files generated during testing
+demo.ans
+examples/demo.ans
+
+# Go build cache
+/go/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
