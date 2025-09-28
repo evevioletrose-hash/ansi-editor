@@ -479,8 +479,7 @@ echo "Build complete! Open index.html in a web server to run the bundle."
 echo "Note: Due to CORS restrictions, you cannot open index.html directly in a browser."
 echo "Use a local web server, for example:"
 echo "  python3 -m http.server 8080"
-echo "  # or"
-echo "  go run -m http.server -addr :8080 ."
+# You can also use any other static file server of your choice.
 `
 
 	buildFile := filepath.Join(outputDir, "build.sh")
