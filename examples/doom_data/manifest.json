@@ -1,0 +1,15 @@
+{
+  "description": "ANSI art project exported from ansi-editor",
+  "files": {
+    "pages": "page_*.json",
+    "project": "project.json"
+  },
+  "format": "ansi-editor-export",
+  "name": "Doom Terminal",
+  "pages": [
+    "Main Menu",
+    "Game HUD",
+    "Level 1"
+  ],
+  "version": "1.0.0"
+}
