@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ansi-editor
+editor
+example
+
+# Test and example output
+*-export/
+example-export/
+simple-game-export/
+my-web-app/
+my-app/
+output/
+test-output/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+*.out
+coverage.html
